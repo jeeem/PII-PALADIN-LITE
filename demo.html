@@ -134,13 +134,13 @@ const clean = stripPII("Contact John at john@email.com");
         <div id="stats" class="stats" style="display: none;"></div>
 
         <div class="note">
-            <strong>💡 Note:</strong> This demo uses the local built version. Once published to npm, you can use <code>npm install pii-paladin-lite</code> and import from the package.
+            <strong>💡 Note:</strong> This demo uses the published npm package via CDN. Install with <code>npm install pii-paladin-lite</code> for production use.
         </div>
     </div>
 
     <script type="module">
-        // Import the library from local built files (Line 1)
-        import { stripPII } from './dist/pii-paladin-lite.esm.js';
+        // Import the library from published npm package (Line 1)
+        import { stripPII } from 'https://unpkg.com/pii-paladin-lite@latest/dist/pii-paladin-lite.esm.js';
 
         // Define the process function
         function processText() {
