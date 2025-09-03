@@ -106,31 +106,48 @@ async function fetchAndClean() {
 }
 ```
 
-## 🆚 **vs pii-paladin**
+## 🆚 **PII Paladin Ecosystem Comparison**
 
-| Feature | pii-paladin | **pii-paladin-lite** |
-|---------|-------------|----------------------|
-| **Bundle Size** | ~90MB (ML models) | **~5KB (regex only)** |
-| **Speed** | Slower (ML inference) | **Lightning fast** |
-| **Accuracy** | Higher (ML + regex) | Good (regex only) |
-| **Browser Support** | Limited (WASM) | **Universal** |
-| **Setup** | Complex (model files) | **Zero config** |
-| **Use Case** | Production/accuracy | **Development/speed** |
-| **Lines of Code** | Complex setup | **Just 2 lines!** |
+| Feature | pii-paladin | **pii-paladin-lite** | **pii-paladin-international** |
+|---------|-------------|----------------------|-------------------------------|
+| **Bundle Size** | ~90MB (ML models) | **~5KB (regex only)** | **~5KB (API client)** |
+| **Speed** | Slower (ML inference) | **Lightning fast** | **Real-time (GPU)** |
+| **Accuracy** | Highest (ML + regex) | Good (regex only) | **Enterprise-grade (Aparavi DTC)** |
+| **Browser Support** | Limited (WASM) | **Universal** | **Universal** |
+| **Setup** | Complex (model files) | **Zero config** | **API key only** |
+| **Use Case** | Production/accuracy | **Development/speed** | **Global compliance** |
+| **Lines of Code** | Complex setup | **Just 2 lines!** | **Just 2 lines!** |
+| **Global Coverage** | Limited | Limited | **60+ countries** |
+| **Language Support** | English-focused | English-focused | **Multi-language** |
 
-## 🚀 **When to Use**
+## 🌍 **How This Fits with PII Paladin Ecosystem**
 
-**Choose pii-paladin-lite when you need:**
+**Package** | **Use Case** | **Environment** | **Bundle Size** | **Accuracy**
+------------|-------------|----------------|----------------|------------
+**PII PALADIN** | Production accuracy | Node.js only | ~90MB | Highest (ML + regex)
+**PII PALADIN LITE** | Fast development | Browser + Node.js | ~5KB | Good (regex only)
+**PII PALADIN INTERNATIONAL** | Global compliance | Browser + Node.js | ~5KB | Enterprise-grade (Aparavi DTC)
+
+### 🎯 **Choose PII PALADIN when you need:**
+- ✅ Maximum accuracy for production
+- ✅ Advanced ML-based detection
+- ✅ Can handle 90MB bundle size
+
+### 🚀 **Choose PII PALADIN LITE when you need:**
 - ✅ **Something that just works** - No configuration needed
 - ✅ **Fast development** - Get PII stripping in 2 lines
 - ✅ **Lightweight integration** - Tiny bundle size
 - ✅ **Universal compatibility** - Works everywhere
 - ✅ **Good enough accuracy** - Covers 95% of common PII
 
-**Choose pii-paladin when you need:**
-- ✅ Maximum accuracy for production
-- ✅ Advanced ML-based detection
-- ✅ Can handle 90MB bundle size
+### 🌍 **Choose PII PALADIN INTERNATIONAL when you need:**
+- ✅ **Global PII detection** across 60+ countries
+- ✅ **Enterprise compliance** (GDPR, CCPA, LGPD, etc.)
+- ✅ **Multi-language support** with cultural context awareness
+- ✅ **Real-time processing** via Aparavi's GPU infrastructure
+- ✅ **Professional-grade security** and accuracy
+
+**🚨 Note:** PII PALADIN INTERNATIONAL requires an Aparavi DTC API key. Get your free API key with 500 free tokens at [https://bit.ly/pii-paladin-dtc](https://bit.ly/pii-paladin-dtc).
 
 ## 📦 **Installation**
 
