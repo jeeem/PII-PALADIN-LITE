@@ -1,6 +1,6 @@
 {
   "name": "pii-paladin-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, fast PII stripper for browser use - just 2 lines of code",
   "main": "dist/pii-paladin-lite.js",
   "module": "dist/pii-paladin-lite.esm.js",
